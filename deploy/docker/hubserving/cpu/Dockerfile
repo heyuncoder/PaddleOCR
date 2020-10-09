@@ -8,7 +8,7 @@ RUN python3.7 -m pip install paddlepaddle==1.8.5 -i https://pypi.tuna.tsinghua.e
 
 RUN pip3.7 install paddlehub --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-RUN cd / && git clone git@github.com:heyuncoder/PaddleOCR.git
+RUN cd / && git clone https://github.com/heyuncoder/PaddleOCR.git
 
 WORKDIR /PaddleOCR
 
